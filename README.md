@@ -6,7 +6,7 @@ This is a simple console based multi-client chat room implemented with python so
 
  1. Install [python](https://www.python.org/)
  2. Install required packages
-    > `pip install requirements.txt`
+    > `pip install -r requirements.txt`
  3. Run server/server.py & client.py
 	>  `python server/server.py`
 	>  `python client.py`
