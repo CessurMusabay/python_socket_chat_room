@@ -1,5 +1,6 @@
 import socket
 import threading
+
 from colorama import init
 from colorama import Fore
 
@@ -11,7 +12,7 @@ class Flag:
     stop = False
 
 
-HOST = socket.gethostbyname(socket.gethostname())
+HOST = '<SERVER_IP_ADDRESS>'
 PORT = 5033
 
 try:

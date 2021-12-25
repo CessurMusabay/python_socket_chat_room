@@ -62,7 +62,7 @@ def broadcast(message, connection, message_id):
             except DatabaseException as e:
                 print(Fore.LIGHTRED_EX + f"[DATABASE EXCEPTION] : {e}")
             except Exception as e:
-                print(Fore.RED + f"[EXCEPTION 1] : {e}")
+                # print(Fore.RED + f"[EXCEPTION 1] : {e}")
                 remove(client)
 
 
